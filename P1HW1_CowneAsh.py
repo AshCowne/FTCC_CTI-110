@@ -16,7 +16,7 @@ exponent_value_integer = int(input("Enter an interger as the exponent: "));
 integer_expmemts_out_come = int(base_value_integer **  exponent_value_integer);
 
 # Showing the outcome of the input.
-print(base_value_integer, " raised to the power of ", exponent_value_integer, "  is ", integer_expmemts_out_come, " !!");
+print(base_value_integer, "raised to the power of", exponent_value_integer, "is", integer_expmemts_out_come, "!!");
 print();
 print();
 
@@ -36,5 +36,5 @@ print();
 print();
 
 # Shows the user the outcome.
-print(starting_integer, " + ", adding_integer," - ", subtracting_integer, " is equal to ", integer_add_subract_out_come);
+print(starting_integer, "+", adding_integer,"-", subtracting_integer, "is equal to", integer_add_subract_out_come);
 
