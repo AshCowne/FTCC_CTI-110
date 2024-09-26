@@ -3,10 +3,6 @@
 # P1HW2
 # A program to do basic math on the numbers that are entered.
 
-'''
-
-'''
-
 
 # Tell's the user the point of the program.
 print("Enter infomation to this program to caculate and display your travel expensise.");
