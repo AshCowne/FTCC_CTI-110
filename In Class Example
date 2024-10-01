@@ -1,0 +1,62 @@
+# Ash Cowne
+#10/1/2024
+# In class work, no grade.
+#
+#
+#Pseudocode
+#
+#
+#
+# Do the following 3 times.
+#Get Item name from user -> String
+# Get qyabtutuy frin yser -> Integer
+# Get price from the user -> Float
+
+item_1 = input("Please put in the name of the item: ");
+quantity_item_1 = int(input(f"How much of {item_1} is there: "));
+item_1_price = float(input(f"How much does {item_1} cost:"));
+
+print("")
+
+item_2 = input("Please put in the name of the item: ");
+quantity_item_2 = int(input(f"How much of {item_2} is there: "));
+item_2_price = float(input(f"How much does {item_2} cost:"));
+
+print("")
+
+item_3 = input("Please put in the name of the item: ");
+quantity_item_3 = int(input(f"How much of {item_3} is there: "));
+item_3_price = float(input(f"How much does {item_3} cost:"));
+
+
+# Caclulate a subtoatal -> quantity times price, for each item then add that up.
+# Caclultate the tax -> Subtotal times tax.
+# Caculate total -> subtotal + tax.
+print("")
+print("")
+
+subtotal = (quantity_item_1 * item_1_price) + (quantity_item_2 * item_2_price) + (quantity_item_3 * item_3_price) 
+tax = round(round(subtotal,2) * 0.07,2);
+total = round(tax,2) + round(subtotal,2)
+
+
+# Display a receite.
+
+print("       Thanks for shopping at Mall       ");
+print("_*_" * 15);
+print("");
+print("");
+item = "ITEM"
+quantity = "QUANTITY"
+cost = "COST"
+print(f"{item:<40}| {quantity:<15}| {cost:<20}")
+print(f"{item_1:<40}| {quantity_item_1:<15}| ${round(item_1_price * quantity_item_1,2)}\n")
+print(f"{item_2:<40}| {quantity_item_2:<15}| ${round(item_2_price * quantity_item_2,2)}\n")
+print(f"{item_3:<40}| {quantity_item_3:<15}| ${round(item_3_price * quantity_item_3,2)}\n")
+print("");
+print("");
+#Displaying subtotal, tax, and cost.
+print(f"Subtotal: ${round(subtotal,2)}");
+print(f"Tax: ${tax}");
+print(f"Total cost: ${total}");
+
