@@ -24,5 +24,5 @@ print("----------------Results---------------");
 print(f"{'Lowest Grade:':<30} {max(test_grades)}");
 print(f"{'Highest Grade:':<31} {min(test_grades)}");
 print(f"{'Sum of  Grade:':<31} {sum(test_grades)}");
-print(f"{'Average:':<34} {average}");
+print(f"{'Average:':<34} {round(average,2)}");
 print("---"*23);
