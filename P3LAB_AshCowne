@@ -1,0 +1,59 @@
+# Ash cowne
+# 10/27/2024
+# P3LAB
+
+# Assignment tests student's knowledge of how to write code that displays information to users
+
+
+# Creating varables and asking input from user.
+money = float(input("Enter a amount of money as a float: $"));
+money = round(money * 100)
+dollars = 0
+quarters = 0
+dimes = 0
+nicles = 0
+pennies = 0
+
+# Code to calculate currency.
+dollars = money // 100
+money = money - (dollars * 100)
+
+quarters = money // 25
+money = money - (quarters * 25)
+
+dimes = money // 10
+money = money - (dimes * 10)
+
+nicles = money // 5
+money = money - (nicles * 5)
+
+pennies = money
+
+# if-else statment to chech what amount of currency of each type to dislay.
+if dollars > 0:
+    if dollars == 1:
+        print(f"{dollars} Dollar");
+    else: 
+        print(f"{dollars} Dollars");
+if quarters > 0:
+    if quarters == 1:
+        print(f"{quarters} Quarter");
+    else: 
+        print(f"{quarters} Quarters");
+if dimes > 0:
+    if dimes == 1:
+        print(f"{dimes} Dime");
+    else: 
+        print(f"{dollars} Dimes");
+if nicles > 0:
+    if nicles == 1:
+        print(f"{nicles} Nicle");
+    else: 
+        print(f"{nicles} Nicles");
+if pennies > 0:
+    if pennies == 1:
+        print(f"{pennies} Pennie");
+    else: 
+        print(f"{pennies} Pennies");
+if money == 0:
+    print("No Change");
