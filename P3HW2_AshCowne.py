@@ -27,4 +27,4 @@ print(f"{'Employee name:':<30} {employee_name}");
 print();
 print(f"{'Hours Worked':<31} {'Pay Rate':<31} {'Overtime':<31} {'OverTime Pay':<31} {'RegHour Pay':<31} {'Gross Pay':<31} ");
 print(f"{'employee_hours':<31} {'employee_pay_rate':<31} {'employee_over':<31} {'employee_over_time_pay':<31} {'employee_pay_rate':<31} {'employee_gross_pay':<31}");
-print("----------"*50);
+print("-------"*40);
