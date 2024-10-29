@@ -16,8 +16,8 @@ employee_gross_pay = 0
 
 # if statment to chech if employee has overtime and caculates the extra hours of overtime.
 if employee_hours > 40 : 
-employee_over = employee_hours - 40
-employee_hours = 40
+  employee_over = employee_hours - 40
+  employee_hours = 40
 
 # Caculations for how much a employee would get paid for normal hours, overtime hours, and thier gross pay.
 employee_noramal_pay = (employee_hours * employee_pay_rate)
